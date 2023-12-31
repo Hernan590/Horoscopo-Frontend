@@ -1,0 +1,13 @@
+.selector-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.main-content{
+  background-color: #c0dad8;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

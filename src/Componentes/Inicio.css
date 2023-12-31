@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1{
+    color: #009688;
+    text-align: center;
+    line-height:10px;
+    font-weight:bold;
+    font-size:25px;
+  }
+
+  img{
+    width: 60px;
+    height: 50px;
+  }
+
+  p{
+    font-size:15px;
+  }
+
+  .home-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  
+  .horoscope {
+    margin-top: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .horoscope h2 {
+    color: #009688;
+  }
+  
+  .footer {
+    height: 40px;
+    width: 100%; /* Cambia esto de "auto" a "100%" */
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    /* padding: 10px; */
+    position: fixed; /* Cambia "sticky" a "fixed" */
+    bottom: 0;
+    left: 0; /* Establece el lado izquierdo en 0 */
+    right: 0; /* Establece el lado derecho en 0 */
+  }
+  .main-content {
+    background-color: #c0dad8;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
